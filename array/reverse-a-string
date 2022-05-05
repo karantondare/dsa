@@ -1,0 +1,12 @@
+function reverseString(str) {
+  if(typeof str !== "string" || !str || str.length < 2) {
+    return 
+  } else {
+    console.log(str.split("").reverse().join(""))
+    return str.split("").reverse().join("")
+  }
+}
+
+function reverseString2(str) {
+  return [...str].reverse().jpon('')
+}
