@@ -7,6 +7,4 @@ function reverseString(str) {
   }
 }
 
-function reverseString2(str) {
-  return [...str].reverse().jpon('')
-}
+const reverseString2 = (str) => [...str].reverse().join('')
